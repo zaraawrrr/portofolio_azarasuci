@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zarawr's — Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500;1,9..144,600&family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="nav">
+        <div class="nav-inner">
+            <div class="nav-pill">
+                <a href="#top" class="nav-logo focus-ok">Zarawr's</a>
+
+                <nav class="nav-links" aria-label="Navigasi utama">
+                    <a href="#about" class="focus-ok">About</a>
+                    <a href="#projects" class="focus-ok">Projects</a>
+                    <a href="#certs" class="focus-ok">Certifications</a>
+                    <a href="#experience" class="focus-ok">Experience</a>
+                </nav>
+
+                <div class="nav-actions">
+                    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Aktifkan dark mode">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                    <a href="#contact" class="nav-cta focus-ok">Let's Connect</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="top">
+        <div class="wrap hero-grid">
+
+            <div class="hero-visual reveal">
+                <div class="tape hero-tape"></div>
+
+                <figure class="polaroid" data-tilt>
+                    <div class="frame">
+                        <img src="./assets/zrr.jpg" alt="Foto Azzahra">
+                        <div class="image-shine"></div>
+                    </div>
+                    <figcaption>@azarasuci</figcaption>
+                </figure>
+
+                <div class="badge-float badge-one">3rd semester</div>
+                <div class="badge-float badge-two">JTIK</div>
+            </div>
+
+            <div class="hero-copy reveal reveal-delay-1">
+                <div class="eyebrow-sticker">
+                    <span class="sticker">✦ portfolio zarawr's</span>
+                </div>
+
+                <h1 class="typing-text hero-title chunky">
+                    Hi, I'm <span class="hero-name">Zara</span> —<br>
+                    <span class="script">Computer Engineering</span> student.
+                </h1>
+
+                <p class="hero-sub">
+                    Mahasiswa Teknik Informatika dan Komputer semester 3 yang sedang mengeksplorasi
+                    <strong>Web Development, Data Analytics, UI/UX, dan Cybersecurity</strong>.
+                    Saya menikmati proses belajar, mencoba teknologi baru, dan mengubah ide menjadi
+                    karya yang bisa digunakan.
+                </p>
+
+                <div class="hero-ctas">
+                    <a href="#projects" class="btn-solid focus-ok">
+                        Explore My Work <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+                    <a href="#contact" class="btn-outline focus-ok">
+                        Contact Me <i class="fa-regular fa-paper-plane"></i>
+                    </a>
+                </div>
+
+                <div class="social-row" aria-label="Social media">
+                    <a href="https://linkedin.com/in/azarasuci" target="_blank" rel="noopener"
+                        class="social-btn focus-ok" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/zaraawrrr" target="_blank" rel="noopener" class="social-btn focus-ok"
+                        aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://instagram.com/azarasuci" target="_blank" rel="noopener" class="social-btn focus-ok"
+                        aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="mailto:zalfaramadhani00@gmail.com" class="social-btn focus-ok" aria-label="Email">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                    <a href="https://discord.com/users/zaraawrrr" target="_blank" rel="noopener"
+                        class="social-btn focus-ok" aria-label="Discord">
+                        <i class="fa-brands fa-discord"></i>
+                    </a>
+                </div>
+
+                <div class="hero-mini-stats">
+                    <div><strong>07</strong><span>Projects</span></div>
+                    <div><strong>04</strong><span>Focus Areas</span></div>
+                    <div><strong>03</strong><span>Org Experience</span></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="wrap">
+            <div class="section-head reveal">
+                <div>
+                    <span class="section-kicker">01 / PROFILE</span>
+                    <h2 class="section-title chunky">a little bit <span class="script">about me</span></h2>
+                </div>
+                <p class="section-note">Learn, connect, grow — cara saya menjalani semester demi semester.</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="id-card card reveal" data-tilt>
+                    <span class="tag-strip">student id</span>
+
+                    <div class="id-photo">
+                        <img src="./assets/zar.jpeg" alt="Azzahra Suci Ramadhani">
+                    </div>
+
+                    <div class="id-row"><span class="id-label">Name</span><span class="id-value">Azzahra Suci
+                            Ramadhani</span></div>
+                    <div class="id-row"><span class="id-label">Major</span><span class="id-value">Informatics & Computer
+                            Engineering</span></div>
+                    <div class="id-row"><span class="id-label">Semester</span><span class="id-value">3</span></div>
+                    <div class="id-row"><span class="id-label">Focus</span><span class="id-value">Web · Data · UI/UX ·
+                            Security</span></div>
+                    <div class="id-row"><span class="id-label">Status</span><span
+                            class="id-value status-active"><span></span> Active UNM Student</span></div>
+                </div>
+
+                <div class="about-copy reveal reveal-delay-1">
+                    <p>
+                        Saya memiliki ketertarikan pada <strong>pengembangan web, analisis data, dan perancangan
+                        antarmuka</strong>. Selain sisi teknis, saya juga menikmati pekerjaan yang membutuhkan
+                        kerapian administrasi, komunikasi, dan pengelolaan informasi.
+                        Saya percaya bahwa aktif di luar akademik tidak berarti mengesampingkan perkuliahan. Dengan menjaga keseimbangan antara akademik, organisasi, dan pengembangan diri, saya berhasil mempertahankan<strong> IPK 3,9 </strong> sekaligus mendapatkan berbagai pengalaman baru.
+                    </p>
+                    <p>
+                        Portfolio ini menjadi ruang untuk mendokumentasikan proses belajar saya:
+                        <strong>Learn</strong> dari setiap proyek, <strong>Connect</strong> melalui kolaborasi,
+                        dan <strong>Grow</strong> melalui pengalaman baru.
+                    </p>
+
+                    <div class="skills-wrap">
+                        <div class="skill-group">
+                            <h3>Tech & Dev</h3>
+                            <div class="chip-row">
+                                <span class="chip">Full-Stack Web Dev</span>
+                                <span class="chip">Data Science</span>
+                                <span class="chip">UI/UX</span>
+                                <span class="chip">Robotics</span>
+                                <span class="chip">Cybersecurity Basics</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-group">
+                            <h3>Design & Tools</h3>
+                            <div class="chip-row">
+                                <span class="chip">UI/UX Design (Figma)</span>
+                                <span class="chip">Canva</span>
+                                <span class="chip">Python</span>
+                                <span class="chip">C++</span>
+                                <span class="chip">Java</span>
+                                <span class="chip">SQL</span>
+                                <span class="chip">Git & GitHub</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-group">
+                            <h3>Soft Skills & Admin</h3>
+                            <div class="chip-row">
+                                <span class="chip">Organizational Management</span>
+                                <span class="chip">Administrative & Secretarial Skills</span>
+                                <span class="chip">Communication</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects-section">
+        <div class="wrap">
+
+            <div class="section-head reveal">
+                <div>
+                    <span class="section-kicker">02 / SELECTED WORK</span>
+                    <h2 class="section-title chunky">things i've <span class="script">built</span></h2>
+                </div>
+                <p class="section-note">Pilih kategori untuk melihat proyek.</p>
+            </div>
+
+            <!-- FILTER -->
+            <div class="project-toolbar reveal">
+                <div class="filter-tabs" role="tablist" aria-label="Filter proyek">
+                    <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All
+                        <span>07</span></button>
+                    <button class="filter-btn" data-filter="web" role="tab" aria-selected="false">Web Dev
+                        <span>03</span></button>
+                    <button class="filter-btn" data-filter="data-analyst" role="tab" aria-selected="false">Data Analyst
+                        <span>01</span></button>
+                    <button class="filter-btn" data-filter="data-science" role="tab" aria-selected="false">Data Science
+                        <span>01</span></button>
+                    <button class="filter-btn" data-filter="uiux" role="tab" aria-selected="false">UI/UX
+                        <span>02</span></button>
+                </div>
+
+                <div class="project-counter"><span id="projectCount">07</span> projects</div>
+            </div>
+
+            <div class="proj-grid" id="projectGrid">
+
+                <!-- DATA ANALYST -->
+                <article class="proj-card card reveal project-item" data-category="data-analyst"
+                    data-project="death-data">
+                    <div class="proj-thumb">
+                        <img src="./assets/dt1.png"
+                            alt="Dashboard analisis penyebab kematian di Indonesia" class="project-image">
+                        <div class="thumb-overlay"></div>
+                        <span class="proj-tag">Data Analyst</span>
+                        <span class="project-number">01</span>
+                        <i class="fa-solid fa-chart-line project-icon"></i>
+                    </div>
+
+                    <div class="proj-body">
+                        <div class="project-meta"><span>Google Colab</span><span>Kaggle</span></div>
+                        <h3>Analisis Data Penyebab Kematian di Indonesia 2004–2021</h3>
+                        <p>Analisis dataset penyebab kematian di Indonesia melalui proses eksplorasi, pengolahan data,
+                            dan visualisasi untuk melihat pola perubahan sepanjang periode 2004–2021.</p>
+                        <div class="proj-links">
+                            <a href="#" data-link="https://colab.research.google.com/" class="focus-ok">Colab <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#" data-link="https://www.kaggle.com/" class="focus-ok">Kaggle <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="" data-link="https://canva.link/dudgezrtwdij6hs"
+                                class="focus-ok">View <i class="fa-regular fa-file-pdf"></i></a>
+                        </div>
+                        <span class="card-hint">View case study <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </article>
+
+                <!-- DATA SCIENCE -->
+                <article class="proj-card card reveal reveal-delay-1 project-item" data-category="data-science"
+                    data-project="influencer-study">
+                    <div class="proj-thumb project-thumb-dark">
+                        <img src="./assets/dataanalis.jpeg" alt="Debunking a Marketing Myth" class="project-image">
+                        <span class="proj-tag">Data Science GDGOC UNM</span>
+                        <span class="project-number">02</span>
+                        <i class="fa-solid fa-flask project-icon"></i>
+                    </div>
+
+                    <div class="proj-body">
+                        <div class="project-meta"><span>Study Case</span><span>Analytics</span></div>
+                        <h3>Debunking a Marketing Myth</h3>
+                        <p>Study case untuk menguji apakah mega-influencers dengan jutaan followers benar-benar memiliki
+                            engagement rate yang lebih rendah.</p>
+                        <div class="proj-links">
+                            <a href="#" data-link="#" class="focus-ok">Notebook <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#" data-link="https://canva.link/dvktov1ve61iggm" class="focus-ok">PDF
+                                <i class="fa-regular fa-file-pdf"></i></a>
+                        </div>
+                        <span class="card-hint">View case study <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </article>
+
+                <!-- UI/UX FIGMA -->
+                <article class="proj-card card reveal project-item" data-category="uiux" data-project="uiux-figma">
+                    <div class="proj-thumb">
+                        <img src="./assets/uiux.png" alt="UI UX project Figma" class="project-image">
+                        <div class="thumb-overlay"></div>
+                        <span class="proj-tag">UI/UX · Figma</span>
+                        <span class="project-number">03</span>
+                        <i class="fa-brands fa-figma project-icon"></i>
+                    </div>
+
+                    <div class="proj-body">
+                        <div class="project-meta"><span>Figma</span><span>Prototype</span></div>
+                        <h3>UI/UX Project — Figma</h3>
+                        <p>Proses perancangan antarmuka dari ide, struktur halaman, wireframe, hingga prototype
+                            interaktif yang dapat dipresentasikan dan diuji.</p>
+                        <div class="proj-links">
+                            <a href="#" data-link="https://www.figma.com/proto/Ssy5kjpd8dUIwnzVQg4oYo/team-7--project?page-id=0%3A1&node-id=10-6&p=f&viewport=300%2C343%2C0.15&t=XjQ5TQUAU540bxK0-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=11%3A2" class="focus-ok">Figma <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#" data-link="https://canva.link/8o07pacw98k8oia" class="focus-ok">PDF <i
+                                    class="fa-regular fa-file-pdf"></i></a>
+                        </div>
+                        <span class="card-hint">View case study <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </article>
+
+                <!-- UI/UX CANVA -->
+                <article class="proj-card card reveal reveal-delay-1 project-item" data-category="uiux"
+                    data-project="uiux-canva">
+                    <div class="proj-thumb">
+                        <img src="./assets/feedsig.jpeg" alt="UI UX project Canva" class="project-image">
+                        <div class="thumb-overlay"></div>
+                        <span class="proj-tag">UI/UX · Canva</span>
+                        <span class="project-number">04</span>
+                        <i class="fa-solid fa-pen-ruler project-icon"></i>
+                    </div>
+
+                    <div class="proj-body">
+                        <div class="project-meta"><span>Canva</span><span>Visual Design</span></div>
+                        <h3>UI/UX & Visual Design — Canva</h3>
+                        <p>Eksplorasi visual interface dan penyusunan desain menggunakan Canva dengan fokus pada layout,
+                            hierarki informasi, dan konsistensi visual.</p>
+                        <div class="proj-links">
+                            <a href="#" data-link="https://canva.link/oslkar9j6x4zavu" class="focus-ok">Canva <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- WEB SIAKAD -->
+                <article class="proj-card card reveal project-item" data-category="web" data-project="siakad">
+                    <div class="proj-thumb">
+                        <img src="./assets/project-siakad.jpg" alt="SIAKAD web application"
+                            class="project-image">
+                        <div class="thumb-overlay"></div>
+                        <span class="proj-tag">Web Development</span>
+                        <span class="project-number">05</span>
+                        <i class="fa-solid fa-laptop-code project-icon"></i>
+                    </div>
+
+                    <div class="proj-body">
+                        <div class="project-meta"><span>Backend</span><span>Frontend</span></div>
+                        <h3>SIAKAD</h3>
+                        <p>Aplikasi web akademik yang menjadi latihan pengembangan interface dan alur pengguna untuk
+                            kebutuhan sistem informasi akademik.</p>
+                        <div class="proj-links">
+                            <a href="https://siakad-26-silk.vercel.app/" target="_blank" rel="noopener"
+                                class="focus-ok">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="#" data-link="https://github.com/zaraawrrr" class="focus-ok">GitHub <i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <span class="card-hint">View case study <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </article>
+
+                <!-- WEB KANTIN -->
+                <article class="proj-card card reveal reveal-delay-1 project-item" data-category="web"
+                    data-project="kantin">
+                    <div class="proj-thumb project-thumb-food">
+                        <span class="menu-float">DIGITAL</span>
+                        <span class="proj-tag">Web Development</span>
+                        <span class="project-number">06</span>
+                        <i class="fa-solid fa-store project-icon"></i>
+                    </div>
+
+                    <div class="proj-body">
+                        <div class="project-meta"><span>Web App</span><span>System</span></div>
+                        <h3>Kantin Digital</h3>
+                        <p>Aplikasi pengelolaan transaksi kantin dengan alur pemesanan, perhitungan subtotal dan pajak,
+                            serta pengelolaan data yang dikembangkan menggunakan Python.</p>
+                        <div class="proj-links">
+                            <a href="#" data-link="https://github.com/ahmadnurz/KANTIN_DIGITAL" class="focus-ok">GitHub <i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <span class="card-hint">View case study <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </article>
+
+                <!-- RANGKAIAN ELEKTRONIKA -->
+                <article class="proj-card card reveal project-item" data-category="web" data-project="kalkulator">
+                    <div class="proj-thumb project-thumb-calc">
+                        <span class="proj-tag">Digital Attendance System</span>
+                        <img src="./assets/absendig.png" alt="absendigital"
+                            class="project-image">
+                        <span class="project-number">07</span>
+                        <i class="fa-solid fa-calculator project-icon"></i>
+                    </div>
+
+                    <div class="proj-body">
+                        <div class="project-meta"><span>Arduino UNO</span><span></span></div>
+                        <p>Sistem absensi otomatis berbasis RFID dan NodeMCU berhasil dibuat dan berfungsi dengan baik. Sistem mampu membaca kartu RFID, menampilkan hasil pada LCD, serta mengirimkan data ke Google Spreadsheet secara otomatis melalui koneksi WiFi.</p>
+                        <div class="proj-links">
+                            <a href="#" data-link="https://docs.google.com/document/d/1q7uOH-rotIzsRonP3GAffxOKSq8_R5gv/edit?usp=sharing&ouid=102486352963866880982&rtpof=true&sd=true" class="focus-ok">View <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="empty-projects" id="emptyProjects">
+                <i class="fa-regular fa-folder-open"></i>
+                <p>Belum ada proyek pada kategori ini.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certs">
+        <div class="wrap">
+            <div class="section-head reveal">
+                <div>
+                    <span class="section-kicker">03 / LEARNING</span>
+                    <h2 class="section-title chunky">learning journey <span class="script">& certifications</span></h2>
+                </div>
+                <p class="section-note">Klik kartu untuk melihat ringkasan pembelajaran.</p>
+            </div>
+        </div>
+
+        <div class="wrap">
+            <div class="cert-strip reveal">
+
+                <div class="receipt" tabindex="0" role="button" data-cert-title="Data Analyst"
+                    data-cert-description="Sertifikasi/pembelajaran yang berfokus pada dasar analisis data, SQL, visualisasi, dan penyampaian insight.">
+                    <span class="receipt-icon"><i class="fa-solid fa-chart-pie"></i></span>
+                    <h4>DATA ANALYST</h4>
+                    <div class="r-sub">Certificate · Issued 2025</div>
+                    <div class="r-line"><span>SQL Fundamentals</span><span>✓</span></div>
+                    <div class="r-line"><span>Data Visualization</span><span>✓</span></div>
+                    <div class="r-line"><span>Statistical Analysis</span><span>✓</span></div>
+                    <div class="r-total"><span>STATUS</span><span>COMPLETED</span></div>
+                    <div class="r-foot">CLICK TO VIEW</div>
+                </div>
+
+                <div class="receipt" tabindex="0" role="button" data-cert-title="Full-Stack Web Development"
+                    data-cert-description="Pembelajaran pengembangan web dari sisi frontend hingga backend dan deployment.">
+                    <span class="receipt-icon"><i class="fa-solid fa-code"></i></span>
+                    <h4>FULL-STACK WEB DEV</h4>
+                    <div class="r-sub">Certificate · Issued 2025</div>
+                    <div class="r-line"><span>Front-End Development</span><span>✓</span></div>
+                    <div class="r-line"><span>Back-End & APIs</span><span>✓</span></div>
+                    <div class="r-line"><span>Deployment</span><span>✓</span></div>
+                    <div class="r-total"><span>STATUS</span><span>COMPLETED</span></div>
+                    <div class="r-foot">CLICK TO VIEW</div>
+                </div>
+
+                <div class="receipt" tabindex="0" role="button" data-cert-title="UI/UX Design"
+                    data-cert-description="Pembelajaran wireframing, prototyping, dan usability dengan fokus pada kebutuhan pengguna.">
+                    <span class="receipt-icon"><i class="fa-brands fa-figma"></i></span>
+                    <h4>UI/UX DESIGN</h4>
+                    <div class="r-sub">Course · In Progress</div>
+                    <div class="r-line"><span>Wireframing</span><span>✓</span></div>
+                    <div class="r-line"><span>Prototyping (Figma)</span><span>✓</span></div>
+                    <div class="r-line"><span>Usability Testing</span><span>···</span></div>
+                    <div class="r-total"><span>STATUS</span><span>ONGOING</span></div>
+                    <div class="r-foot">CLICK TO VIEW</div>
+                </div>
+
+                <div class="receipt" tabindex="0" role="button" data-cert-title="Cybersecurity"
+                    data-cert-description="Pembelajaran dasar keamanan jaringan, vulnerability, dan secure coding sebagai fondasi cybersecurity.">
+                    <span class="receipt-icon"><i class="fa-solid fa-shield-halved"></i></span>
+                    <h4>CYBERSECURITY</h4>
+                    <div class="r-sub">Course · In Progress</div>
+                    <div class="r-line"><span>Network Fundamentals</span><span>✓</span></div>
+                    <div class="r-line"><span>Vulnerability Basics</span><span>✓</span></div>
+                    <div class="r-line"><span>Secure Coding</span><span>···</span></div>
+                    <div class="r-total"><span>STATUS</span><span>ONGOING</span></div>
+                    <div class="r-foot">CLICK TO VIEW</div>
+                </div>
+
+                <div class="receipt" tabindex="0" role="button" data-cert-title="Data Science"
+                    data-cert-description="Pembelajaran Python for Data dan pengenalan konsep machine learning sebagai bagian dari eksplorasi data science.">
+                    <span class="receipt-icon"><i class="fa-solid fa-flask"></i></span>
+                    <h4>DATA SCIENCE</h4>
+                    <div class="r-sub">Course · In Progress</div>
+                    <div class="r-line"><span>Python for Data</span><span>✓</span></div>
+                    <div class="r-line"><span>Machine Learning Basics</span><span>···</span></div>
+                    <div class="r-total"><span>STATUS</span><span>ONGOING</span></div>
+                    <div class="r-foot">CLICK TO VIEW</div>
+                </div>
+            </div>
+            
+            <!-- CERTIFICATE GALLERY -->
+            <div class="cert-gallery reveal-cert">
+            <div class="cert-gallery-head">
+                <span class="cert-gallery-label">certificate archive</span>
+                <h3>my <span>certificates.</span></h3>
+                <p>Dokumentasi sertifikat dan pelatihan yang telah saya selesaikan.</p>
+            </div>
+
+            <div class="cert-gallery-grid">
+
+                <figure class="cert-image-card">
+                <img src="./assets/sertif1.png" alt="Certificate 1" loading="lazy">
+                <figcaption>TOEFL</figcaption>
+                </figure>
+
+                <figure class="cert-image-card">
+                <img src="./assets/sertif2.png" alt="Certificate 2" loading="lazy">
+                <figcaption>Certificate FLUTTER MOBILE APPS PROGRAM</figcaption>
+                </figure>
+
+                <figure class="cert-image-card">
+                <img src="./assets/sertif3.png" alt="Certificate 3" loading="lazy">
+                <figcaption>Certificate FULLSTACK WEB DEV</figcaption>
+                </figure>
+
+                <figure class="cert-image-card">
+                <img src="./assets/sertif4.png" alt="Certificate 4" loading="lazy">
+                <figcaption>DATA ANALYST</figcaption>
+                </figure>
+
+                <figure class="cert-image-card">
+                <img src="./assets/sertif5.png" alt="Certificate 5" loading="lazy">
+                <figcaption>Certificate UI/UX</figcaption>
+                </figure>
+
+                <figure class="cert-image-card">
+                <img src="./assets/sertif6.png" alt="Certificate 6" loading="lazy">
+                <figcaption>Certificate DATA SCIENCE</figcaption>
+                </figure>
+
+                <figure class="cert-image-card">
+                <img src="./assets/sertif7.png" alt="Certificate 7" loading="lazy">
+                <figcaption>Certificate DICODING</figcaption>
+                </figure>
+            </div>
+
+            <!-- ORGANIZATION -->
+            <section id="experience">
+                <div class="cert-gallery reveal-cert">
+            <div class="cert-gallery-head">
+                <h3>my <span>Organization & Experience.</span></h3>
+            </div>
+
+            <div class="cert-gallery-grid">
+
+                <figure class="cert-image-card">
+                <img src="./assets/elite.jpeg" alt="Certificate 1" loading="lazy">
+                <figcaption>ELITE.COM</figcaption>
+                <link href="">@elite_smanses</link>
+                </figure>
+
+                <figure class="cert-image-card">
+                <img src="./assets/eniac.jpeg" alt="Certificate 1" loading="lazy">
+                <figcaption>ENIAC</figcaption>
+                <link href="">@elite_smanses</link>
+                </figure>
+
+                <figure class="cert-image-card">
+                <img src="./assets/panitia.jpeg" alt="Certificate 2" loading="lazy">
+                <figcaption>panitia Academic Culture Orientation Divisi Kesekretariatan</figcaption>
+                </figure>
+
+                <figure class="cert-image-card">
+                <img src="./assets/gdgoc.jpeg" alt="Certificate 3" loading="lazy">
+                <figcaption>GDGOC UNM</figcaption>
+                </figure>
+
+                <figure class="cert-image-card">
+                <img src="./assets/robotics.jpeg" alt="Certificate 3" loading="lazy">
+                <figcaption>Study Jam Robotics GDGOC UNM</figcaption>
+                </figure>
+
+                <figure class="cert-image-card">
+                <img src="./assets/image.png" alt="Certificate 3" loading="lazy">
+                <figcaption>Many more</figcaption>
+                </figure>
+            </div>
+            </section>
+    </section>
+
+    <!-- FOOTER / CONTACT -->
+    <footer id="contact">
+        <div class="wrap">
+            <div class="foot-grid">
+
+                <div class="foot-connect reveal">
+                    <span class="section-kicker footer-kicker">03 / CONTACT</span>
+                    <h2 class="foot-title">let's <span>connect.</span></h2>
+                    <p class="foot-sub">
+                        Terbuka untuk kesempatan magang, kolaborasi proyek, atau sekadar ngobrol
+                        soal web, data, dan desain.
+                    </p>
+
+                    <div class="foot-social-row">
+                        <a href="https://linkedin.com/in/azarasuci" target="_blank" rel="noopener"
+                            class="foot-social-btn">
+                            <i class="fa-brands fa-linkedin-in"></i><span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/zaraawrrr" target="_blank" rel="noopener" class="foot-social-btn">
+                            <i class="fa-brands fa-github"></i><span>GitHub</span>
+                        </a>
+                        <a href="https://instagram.com/azarasuci" target="_blank" rel="noopener"
+                            class="foot-social-btn">
+                            <i class="fa-brands fa-instagram"></i><span>Instagram</span>
+                        </a>
+                        <a href="https://discord.com/users/zaraawrrr" target="_blank" rel="noopener"
+                            class="foot-social-btn">
+                            <i class="fa-brands fa-discord"></i><span>Discord</span>
+                        </a>
+                        <a href="mailto:zalfaramadhani00@gmail.com" class="foot-social-btn">
+                            <i class="fa-regular fa-envelope"></i><span>Email</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="foot-tools reveal reveal-delay-1">
+                    <span class="section-kicker footer-kicker"></span>
+                    <h2 class="foot-title small-title">tools i <span>use</span></h2>
+
+                    <div class="tools-group">
+                        <p>Programming</p>
+                        <div class="tools-list">
+                            <span>C++</span><span>Python</span><span>JAVA</span><span>HTML/CSS/JS</span><span>SQL</span>
+                        </div>
+                    </div>
+
+                    <div class="tools-group">
+                        <p>Design</p>
+                        <div class="tools-list">
+                            <span>Figma</span><span>Canva</span>
+                        </div>
+                    </div>
+
+                    <div class="tools-group">
+                        <p>Interest</p>
+                        <div class="tools-list">
+                            <span>UI/UX</span><span>Data</span><span>Web</span><span>Cybersecurity</span><span>Robotics</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="foot-bottom">
+                <p>© 2026 Azzahra. Dibuat dengan HTML, CSS & JavaScript</p>
+                <p>Computer Engineering Student — Learn, Connect, Grow.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- QUICK VIEW MODAL -->
+    <div class="modal-overlay" id="modalOverlay" aria-hidden="true">
+        <div class="modal-box" id="modalBox" role="dialog" aria-modal="true" aria-label="Project detail"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
